@@ -1,0 +1,25 @@
+configuration {
+    modi:                       "drun,filebrowser,window";
+    show-icons:                 true;
+    display-drun:               "";
+    display-window:             "";
+    display-filebrowser:        "";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+    window-thumbnail:           true;
+    drun,run,filebrowser {
+        fallback-icon:          "fallback-app";
+    }
+    window {
+        prefer-icon-theme:      true;
+        fallback-icon:          "fallback-app";
+    }
+    
+    hover-select:               true;
+    me-select-entry:            "";
+    me-accept-entry:            "MousePrimary";
+    case-sensitive: 		false;
+}
+
+@theme "~/.config/rofi/files/launchers/type-6/style-6.rasi"
+

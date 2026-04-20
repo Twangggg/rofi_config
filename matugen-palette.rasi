@@ -1,0 +1,25 @@
+* {
+    /* Matugen Generated Palette */
+    bg-col:                 #0e1416;
+    bg-col-light:           #171d1e;
+    border-col:             #3f484b;
+    selected-col:           #252b2c;
+    blue:                   #b2cbd1;
+    fg-col:                 #dee3e5;
+    fg-col2:                #ffb4ab;
+    grey:                   #bfc8cb;
+    surface0:               #1b2122;
+    surface1:               #252b2c;
+    mauve:                  #83d2e4;
+    rosewater:              #bdc5eb;
+
+    /* "Alive" Glass Colors */
+    /* Matugen hex outputs #RRGGBB, appending f2/80 gives #RRGGBBAA */
+    bg-alpha:               #0e1416f2;
+    surface-alpha:          #252b2c80;
+
+    /* GRADIENTS for "Cooler" Look */
+    active-grad:            linear-gradient(to bottom, #252b2c, #1b2122);
+    tab-grad:               linear-gradient(to right, #83d2e4, #b2cbd1);
+}
+
